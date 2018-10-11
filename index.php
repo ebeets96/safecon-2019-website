@@ -6,10 +6,11 @@
 -->
 <html>
 	<head>
-		<title>Projection by TEMPLATED</title>
+		<title>SAFECON 2019 Hosted by Wisconsin Flying Team</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/clock.css" />
 	</head>
 	<body>
 
@@ -20,28 +21,30 @@
 			<section id="banner">
 				<div class="inner">
 					<header>
-						<h1>SAFECON 2019</h1>
+<!--						<h1>SAFECON 2019</h1>-->
+						<div class="image">
+							<img src="images/safecon-logo.png" style="max-width: 100%" />
+						</div>
 					</header>
 
 					<div class="flex ">
-
+						
 						<div>
-							<span class="icon fa-car"></span>
-							<h3>Aliquam</h3>
-							<p>Suspendisse amet ullamco</p>
+							<p class="countdown-clock">
+								<span id="days">0<span class="countdown-label">Days</span></span>
+								<span id="hours">0<span class="countdown-label">Hours</span></span>
+								<span id="minutes">0<span class="countdown-label">Minutes</span></span>
+								<span id="seconds">0<span class="countdown-label">Seconds</span></span>
+							</p>
 						</div>
-
-						<div>
-							<span class="icon fa-clock-o"></span>
-							<h3>Countdown</h3>
-							<p>Class aptent taciti ad litora</p>
-						</div>
+<!--
 
 						<div>
 							<span class="icon fa-bug"></span>
 							<h3>Ultrices</h3>
 							<p>Nulla vitae mauris non felis</p>
 						</div>
+-->
 
 					</div>
 
@@ -64,6 +67,7 @@
 								<h3>Lorem ipsum<br /> dolor amet nullam</h3>
 							</header>
 							<p>Morbi in sem quis dui placerat ornare. Pellentesquenisi<br />euismod in, pharetra a, ultricies in diam sed arcu. Cras<br />consequat  egestas augue vulputate.</p>
+		
 							<footer>
 								<a href="#" class="button">Learn More</a>
 							</footer>

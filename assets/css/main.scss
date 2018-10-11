@@ -1,4 +1,4 @@
-$red_color: #f12c2c;
+$red_color: #c42032;
 
 @charset "UTF-8";
 @import url(font-awesome.min.css);
@@ -2918,8 +2918,8 @@ $red_color: #f12c2c;
 /* Banner */
 
 	#banner {
-		padding: 8em 0 9em 0;
-		background-image: url(../../images/banner.jpg);
+		padding: 6em 0 6em 0;
+		background-image: url(../../images/banner_compressed.jpg);
 		background-size: cover;
 		background-position: top;
 		background-attachment: fixed;
@@ -3019,7 +3019,7 @@ $red_color: #f12c2c;
 		@media screen and (max-width: 1280px) {
 
 			#banner {
-				padding: 7em 0 6em 0;
+				padding: 5em 0 4em 0;
 			}
 
 				#banner .inner {

@@ -11,6 +11,8 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="stylesheet" href="assets/css/clock.css" />
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/countdown.js" type="text/javascript"></script>
 	</head>
 	<body>
 
@@ -47,10 +49,13 @@
 -->
 
 					</div>
+					
 
+<!--
 					<footer>
 						<a href="#" class="button">Get Started</a>
 					</footer>
+-->
 				</div>
 			</section>
 
@@ -60,18 +65,25 @@
 				<div class="inner">
 					<div class="flex flex-2">
 						<article>
-							<div class="image round">
-								<img src="images/pic01.jpg" alt="Pic 01" />
+							<div class="image">
+								<img src="images/JVL.png" alt="JVL Airport Icon" />
 							</div>
 							<header>
-								<h3>Lorem ipsum<br /> dolor amet nullam</h3>
+								<h3>Southern Wisconsin Regional Airport</h3>
 							</header>
-							<p>Morbi in sem quis dui placerat ornare. Pellentesquenisi<br />euismod in, pharetra a, ultricies in diam sed arcu. Cras<br />consequat  egestas augue vulputate.</p>
+							<p>
+								Located in South-Central Wisconsin, the Janesville Airport will be the home of SAFECON 2019<br />
+								Winds: <span id="winds"></span><br />
+								Temperature: <span id="temp"></span><br />
+								Dewpoint: <span id="dewpoint"></span><br />
+								Visibility: <span id="visibility"></span><br />
+							</p
 		
 							<footer>
-								<a href="#" class="button">Learn More</a>
+								<a href="https://www.jvlairport.com/" target="_blank" class="button">Visit JVL Airport Website</a>
 							</footer>
 						</article>
+<!--
 						<article>
 							<div class="image round">
 								<img src="images/pic02.jpg" alt="Pic 02" />
@@ -84,6 +96,7 @@
 								<a href="#" class="button">Learn More</a>
 							</footer>
 						</article>
+-->
 					</div>
 				</div>
 			</section>
@@ -92,7 +105,6 @@
 			<?php require_once "footer.php"; ?>
 
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>

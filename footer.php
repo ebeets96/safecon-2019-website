@@ -1,6 +1,6 @@
 <footer id="footer">
 	<div class="inner">
-
+		<?php if(false): ?>
 		<h3>Get in touch</h3>
 
 		<form action="#" method="post">
@@ -22,9 +22,10 @@
 				</li>
 			</ul>
 		</form>
+		<?php endif; ?>
 
 		<div class="copyright">
-			&copy; Untitled. Design: <a href="https://templated.co">TEMPLATED</a>. Images: <a href="https://unsplash.com">Unsplash</a>.
+			&copy; Wisconsin Flying Team.  Design from: <a href="https://templated.co">TEMPLATED</a>.
 		</div>
 
 	</div>

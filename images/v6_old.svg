@@ -1,0 +1,49 @@
+<svg id="Layer_1" data-name="Layer 1"
+	xmlns="http://www.w3.org/2000/svg" viewBox="-100 -50 739.33 294.67">
+	<defs>
+		<style>.cls-1{fill:#c42026;}.cls-2{font-size:70.14px;letter-spacing:-0.03em;}.cls-2,.cls-4,.cls-8{fill:#282728;}.cls-2,.cls-5,.cls-8{font-family:BureauGrot-Book, Bureau Grot;}.cls-3{fill:#dbdfe1;stroke:#282728;stroke-miterlimit:10;stroke-width:9px;}.cls-5{font-size:72px;fill:#c10230;letter-spacing:-0.03em;}.cls-6{letter-spacing:-0.04em;}.cls-7{letter-spacing:-0.03em;}.cls-8{font-size:45px;letter-spacing:0.02em;}.cls-9{font-size:20.74px;letter-spacing:-0.03em;}.cls-14,.cls-9{fill:#231f20;font-family:FiraSans-UltraLight, Fira Sans;}.cls-10{letter-spacing:-0.04em;}.cls-11{letter-spacing:-0.03em;}.cls-12{letter-spacing:-0.04em;}.cls-13{letter-spacing:-0.03em;}.cls-14{font-size:20px;letter-spacing:-0.03em;}.cls-15{letter-spacing:-0.04em;}.cls-16{letter-spacing:-0.08em;}</style>
+
+		<filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+			<feDropShadow dx="0" dy="0" stdDeviation="35" flood-color="#ffffff" flood-opacity="1" />
+			<feDropShadow dx="0" dy="0" stdDeviation="35" flood-color="#ffffff" flood-opacity=".5" />
+		</filter>
+	</defs>
+	<title>v6</title>
+	<g id="safecon-logo" filter="url(#shadow)">
+		<g id="Airplane">
+			<path class="cls-1" d="M315.2,97.41c-2.49,0-7.76-.25-10.56-.25.88-4.79.8-8.31,1.58-14.65.93-8.7,1.14-18.54,3.42-18.61C311.92,64.05,314.37,92.59,315.2,97.41Z"/>
+			<path class="cls-1" d="M338.68,121.94v-6.3l36,2.3v1.81Z"/>
+			<path class="cls-1" d="M279.84,117.63v5.18l-33.51-2.15v-1.45c5.52-.53,11-1.26,16.52-1.53S274,117.63,279.84,117.63Z"/>
+			<g id="Wisconsin">
+				<text class="cls-2" transform="translate(350.74 149.17)">NSIN</text>
+				<text class="cls-2" transform="translate(112.15 149.17)">WISC</text>
+			</g>
+			<path class="cls-1" d="M293.7,147.12c-40.07-1.35-201.48-7.41-207.14,1.29-1.71,2.9,200.68,6.65,204,6.51a.76.76,0,0,0,.62-.41c1.37-2.66,1.68-3.69,3.09-6.3A.73.73,0,0,0,293.7,147.12Z"/>
+			<path class="cls-1" d="M324.25,147.12c40.07-1.35,201.48-7.41,207.14,1.29,1.71,2.9-200.68,6.65-204,6.51a.76.76,0,0,1-.62-.41c-1.37-2.66-1.68-3.69-3.09-6.3A.73.73,0,0,1,324.25,147.12Z"/>
+			<circle class="cls-3" cx="310.67" cy="127.2" r="28.06"/>
+			<path class="cls-4" d="M360.17,72.9c-3,1.48-5.78,4.16-8.27,6.42-7.66,6.94-14.93,14.5-22.18,21.79q-3.59,3.6-7.13,7.23c-2.15,2.2-6.84,5.91-6.84,5.91S297.89,133.39,298,133.52c-5,3.92-8,6.44-11.76,9.95-4.73,4.38-10,9.48-14.75,13.87a95.17,95.17,0,0,0-10.24,10.73c-2.46,3.11-4.82,6.59-5.05,10.65a2.94,2.94,0,0,0,1.89,3c2.68,1,5.91-1.59,7.83-3.18,4.46-3.71,8.79-7.24,13.2-11.32,4.55-4.58,9.13-9.19,13.45-14l1.37-1.54c3.62-4.17,6.92-8.59,10.5-12.8.11-.13,18.26-18.38,18.26-18.38s3.71-2.78,4.27-3.17c1.92-1.36,3.8-2.79,5.64-4.25,3.58-2.84,7.09-5.88,10.5-8.85A142.22,142.22,0,0,0,356.71,91c3.66-4.16,7.2-8.93,8.36-14.42C365.72,73.47,363.1,71.48,360.17,72.9Z"/>
+			<circle class="cls-1" cx="310.39" cy="126.98" r="10.71"/>
+			<circle class="cls-4" cx="310.14" cy="126.49" r="4.99"/>
+		</g>
+		<text class="cls-5" transform="translate(6.13 70.44)">SAF
+			<tspan class="cls-6" x="119.59" y="0">E</tspan>
+			<tspan class="cls-7" x="158.33" y="0">CON</tspan>
+		</text>
+		<text class="cls-8" transform="translate(319.65 70.2)">2019</text>
+		<text class="cls-9" transform="translate(8.32 112.24)">Uni
+			<tspan class="cls-10" x="28.97" y="0">v</tspan>
+			<tspan class="cls-11" x="37.57" y="0">e</tspan>
+			<tspan class="cls-12" x="47.94" y="0">r</tspan>
+			<tspan class="cls-13" x="54.66" y="0">sity</tspan>
+			<tspan class="cls-11">
+				<tspan x="66.4" y="24.88">of</tspan>
+			</tspan>
+		</text>
+		<text class="cls-14" transform="translate(327.8 28.64)">M
+			<tspan class="cls-15" x="14.72" y="0">a</tspan>
+			<tspan x="24.54" y="0">y 13</tspan>
+			<tspan class="cls-16" x="54.42" y="0">-</tspan>
+			<tspan x="60.8" y="0">19</tspan>
+		</text>
+	</g>
+</svg>

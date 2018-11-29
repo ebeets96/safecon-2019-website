@@ -1905,10 +1905,19 @@ $red_color: #c42032;
 				width: 50%;
 			}
 
+			.flex.flex-2 .custom-flex-wide {
+				text-align: left;
+				width: 60%;
+			}
+
+			.flex.flex-2 .custom-flex-skinny {
+				width: 37%;
+			}
+
 		@media screen and (max-width: 980px) {
 
 			.flex.flex-2 article {
-				width: 100%;
+				width: 100% !important;
 				margin-bottom: 3em;
 			}
 
@@ -2699,10 +2708,10 @@ $red_color: #c42032;
 	}
 
 		.subpage #header {
-			background: #000000;
+//			background: #000000;
 			top: 0;
-			height: 44px;
-			line-height: 44px;
+//			height: 44px;
+//			line-height: 44px;
 			position: fixed;
 		}
 
@@ -2726,21 +2735,28 @@ $red_color: #c42032;
 
 		#header .logo {
 			color: #ffffff;
-			display: inline-block;
-			font-weight: 400;
-			height: inherit;
-			left: 0;
-			line-height: inherit;
-			margin: 0;
-			padding: 0;
+			//display: inline-block;
+			font-weight: 300;
+			line-height: 1em;
+			font-size: 2em;
+			height: 100%;
 			position: absolute;
+			left: 0;
 			top: 0;
-			font-size: 1em;
+			margin: 0;
+			padding: .2em 0;
+			
+			img {
+				width:auto;
+				max-height:100%;
+			}
 		}
 
 			#header .logo strong {
 				color: #ffffff;
-				font-weight: 600;
+				font-family: bureau-grot, sans-serif;
+				font-weight: 400;
+				font-size: 1.5em;
 			}
 
 		#header a {
@@ -2918,7 +2934,7 @@ $red_color: #c42032;
 /* Banner */
 
 	#banner {
-		padding: 6em 0 6em 0;
+		padding: 6em 0 0em 0;
 		background-image: url(../../images/banner_compressed.jpg);
 		background-size: cover;
 		background-position: top;
@@ -2930,7 +2946,7 @@ $red_color: #c42032;
 
 		#banner:before {
 			content: '';
-			background: rgba(255, 255, 255, 0.78);
+			background: rgba(255, 255, 255, 0.5);
 			position: absolute;
 			width: 100%;
 			height: 100%;
@@ -2941,7 +2957,21 @@ $red_color: #c42032;
 		#banner .inner {
 			position: relative;
 			z-index: 10005;
-			padding-top: 8em;
+			padding-top: 0em;
+		}
+
+		#banner .inner .text-header {
+			padding-top: 150px;
+			padding-bottom: 150px;
+			text-shadow: 0px 0px 1px #FFFFFF;
+		}
+
+		#banner .inner .text-header h2{
+			font-weight: bold;
+		}
+
+		#banner .inner img {
+			height: 400px;
 		}
 
 		#banner h1 {
@@ -3159,3 +3189,17 @@ $red_color: #c42032;
 			}
 
 		}
+
+.countdown-clock {
+	span {
+		color: #000000;
+		font-size: 2.5em;
+		padding: 0 3px;
+	}
+	
+	
+	.countdown-label {
+		font-size: .4em;
+		padding-left: 5px;
+	}
+}

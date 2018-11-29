@@ -69,7 +69,7 @@
 		if(data["Wind-Speed"] < 1) {
 			wind_speed = "Calm";
 		} else {
-			wind_speed = data["Wind-Speed"] + " at " + data["Wind-Speed"] + "kts";
+			wind_speed = data["Wind-Direction"] + "&deg; at " + data["Wind-Speed"] + "kts";
 		}
 		
 		$("#winds").html(wind_speed);

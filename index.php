@@ -9,8 +9,8 @@
 		<title>SAFECON 2019 Hosted by Wisconsin Flying Team</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="https://use.typekit.net/chi0suc.css">
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<link rel="stylesheet" href="assets/css/clock.css" />
 		<script src="assets/js/jquery.min.js"></script>
 		<script src="assets/js/countdown.js" type="text/javascript"></script>
 	</head>
@@ -22,44 +22,15 @@
 		<!-- Banner -->
 			<section id="banner">
 				<div class="inner">
-					<header>
-<!--						<h1>SAFECON 2019</h1>-->
-						<div class="image">
-							<img src="images/safecon-logo.png" style="max-width: 100%" />
-						</div>
+					<header class="text-header">
+						<h1>UW-Madison's Intercollegiate Flying Team</h1>
+						<h2>Host of 2019 SAFECON Nationals</h2>
 					</header>
-
-					<div class="flex ">
-						
-						<div>
-							<p class="countdown-clock">
-								<span id="days">0<span class="countdown-label">Days</span></span>
-								<span id="hours">0<span class="countdown-label">Hours</span></span>
-								<span id="minutes">0<span class="countdown-label">Minutes</span></span>
-								<span id="seconds">0<span class="countdown-label">Seconds</span></span>
-							</p>
-						</div>
-<!--
-
-						<div>
-							<span class="icon fa-bug"></span>
-							<h3>Ultrices</h3>
-							<p>Nulla vitae mauris non felis</p>
-						</div>
--->
-
-					</div>
-					
-
-<!--
-					<footer>
-						<a href="#" class="button">Get Started</a>
-					</footer>
--->
 				</div>
 			</section>
 
 
+								
 		<!-- Three -->
 			<section id="three" class="wrapper align-center">
 				<div class="inner">

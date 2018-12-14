@@ -1214,7 +1214,7 @@ body.is-loading *, body.is-loading *:before, body.is-loading *:after {
 
 /* Type */
 body, input, select, textarea {
-  color: #9a9a9a;
+  color: #5a5a5a;
   font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
   font-size: 14pt;
   font-weight: 400;
@@ -1570,7 +1570,7 @@ input[type="radio"] {
 input[type="checkbox"] + label,
 input[type="radio"] + label {
   text-decoration: none;
-  color: #9a9a9a;
+  color: #5a5a5a;
   cursor: pointer;
   display: inline-block;
   font-size: 1em;
@@ -2444,3 +2444,42 @@ button:disabled,
 .countdown-clock .countdown-label {
   font-size: .4em;
   padding-left: 5px; }
+
+#leaflet-map {
+  width: 100%;
+  height: 500px;
+  margin-bottom: 50px; }
+
+.hotel {
+  position: relative;
+  max-width: 600px;
+  margin: 0 auto 10px auto;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #666666; }
+  .hotel .hotel-info {
+    width: 75%; }
+    .hotel .hotel-info .hotel-title {
+      display: block;
+      font-size: 1.2em;
+      font-weight: bold; }
+    .hotel .hotel-info .hotel-address, .hotel .hotel-info .hotel-phone, .hotel .hotel-info .hotel-price, .hotel .hotel-info .hotel-details {
+      display: block; }
+  .hotel .hotel-links {
+    width: 25%;
+    height: 100%; }
+    .hotel .hotel-links .hotel-website, .hotel .hotel-links .hotel-show-on-map {
+      position: absolute;
+      top: 1em;
+      font-size: 2em; }
+      .hotel .hotel-links .hotel-website .fa, .hotel .hotel-links .hotel-show-on-map .fa {
+        height: 100%;
+        vertical-align: middle; }
+    .hotel .hotel-links .hotel-website {
+      right: 0; }
+    .hotel .hotel-links .hotel-show-on-map {
+      right: 12.5%; }
+
+.hotel:after {
+  content: "";
+  display: table;
+  clear: both; }

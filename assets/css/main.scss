@@ -1,4 +1,5 @@
 $red_color: #c42032;
+$font-color: #5a5a5a;
 
 @charset "UTF-8";
 @import url(font-awesome.min.css);
@@ -1587,7 +1588,7 @@ $red_color: #c42032;
 /* Type */
 
 	body, input, select, textarea {
-		color: #9a9a9a;
+		color: $font-color;
 		font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
 		font-size: 14pt;
 		font-weight: 400;
@@ -2077,7 +2078,7 @@ $red_color: #c42032;
 		input[type="checkbox"] + label,
 		input[type="radio"] + label {
 			text-decoration: none;
-			color: #9a9a9a;
+			color: $font-color;
 			cursor: pointer;
 			display: inline-block;
 			font-size: 1em;
@@ -3202,4 +3203,62 @@ $red_color: #c42032;
 		font-size: .4em;
 		padding-left: 5px;
 	}
+}
+
+#leaflet-map {
+	width: 100%;
+	height: 500px;
+	margin-bottom: 50px;
+}
+
+.hotel {
+	position: relative;
+	max-width: 600px;
+	margin: 0 auto 10px auto;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #666666;
+	
+	.hotel-info {
+		width: 75%;
+		
+		.hotel-title {
+			display: block;
+			font-size: 1.2em;
+			font-weight: bold;
+		}
+
+		.hotel-address, .hotel-phone, .hotel-price, .hotel-details {
+			display: block;
+		}
+	}
+	
+	.hotel-links {
+		width: 25%;
+		height: 100%;
+		
+		.hotel-website, .hotel-show-on-map {
+			position: absolute;
+			top:1em;
+			font-size:2em;
+
+			.fa {
+				height: 100%;
+				vertical-align: middle;
+			}
+		}
+		
+		.hotel-website {
+			right: 0;
+		}
+		
+		.hotel-show-on-map {
+			right: 12.5%;
+		}
+	}
+}
+
+.hotel:after {
+	content: "";
+	display: table;
+	clear: both;
 }

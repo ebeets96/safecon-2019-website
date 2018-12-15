@@ -1906,15 +1906,6 @@ $font-color: #5a5a5a;
 				width: 50%;
 			}
 
-			.flex.flex-2 .custom-flex-wide {
-				text-align: left;
-				width: 60%;
-			}
-
-			.flex.flex-2 .custom-flex-skinny {
-				width: 37%;
-			}
-
 		@media screen and (max-width: 980px) {
 
 			.flex.flex-2 article {
@@ -3215,8 +3206,15 @@ $font-color: #5a5a5a;
 	position: relative;
 	max-width: 600px;
 	margin: 0 auto 10px auto;
-	padding-bottom: 10px;
+	padding: 10px 10px 20px;
 	border-bottom: 1px solid #666666;
+	-webkit-transition: background-color 1s ease;
+    -ms-transition: background-color 1s ease;
+	transition: background-color 1s ease;
+	
+	&.highlight {
+		background-color: rgba(196,32,50,0.40);
+	}
 	
 	.hotel-info {
 		width: 75%;

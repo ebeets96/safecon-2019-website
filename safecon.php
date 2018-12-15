@@ -39,8 +39,8 @@
 	<!-- Three -->
 	<section id="main" class="wrapper align-center">
 		<div class="inner">
-			<div class="flex flex-2">
-			  <article class="custom-flex-wide">
+			<div class="row">
+			  <article class="7u 6u(medium) 12u$(small)">
 <!--
 					<div class="image round">
 						<img src="images/pic02.jpg" alt="Pic 02"/>
@@ -63,7 +63,7 @@
 
 					<p>Andrew Ross<br />630-460-0710<br /><a href="mailto:andrew.ross@nifa.aero">andrew.ross@nifa.aero</a> or <a href="mailto:andrew.ross@alpa.org">andrew.ross@alpa.org</a></p>
 				</article>
-				<article class="custom-flex-skinny">
+				<article class="5u 6u(medium) 12u$(small)">
 					<h3>Countdown to SAFECON</h3>
 					<p>
 						<div class="countdown-clock">

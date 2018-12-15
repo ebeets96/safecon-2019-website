@@ -29,7 +29,10 @@
 						<h2>Hotel Information</h2>
 					</header>
 					<div id="leaflet-map"></div>
-					<div id="hotels"></div>
+					<div class="row">
+						<div id="hotels1" class="6u 6u(medium) 12u$(small)"></div>
+						<div id="hotels2" class="6u 6u(medium) 12u$(small)"></div>
+					</div>
 				</div>
 			</section>
 

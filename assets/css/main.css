@@ -1433,13 +1433,6 @@ header h6 + p {
 .flex.flex-2 article {
   width: 50%; }
 
-.flex.flex-2 .custom-flex-wide {
-  text-align: left;
-  width: 60%; }
-
-.flex.flex-2 .custom-flex-skinny {
-  width: 37%; }
-
 @media screen and (max-width: 980px) {
   .flex.flex-2 article {
     width: 100% !important;
@@ -2454,8 +2447,13 @@ button:disabled,
   position: relative;
   max-width: 600px;
   margin: 0 auto 10px auto;
-  padding-bottom: 10px;
-  border-bottom: 1px solid #666666; }
+  padding: 10px 10px 20px;
+  border-bottom: 1px solid #666666;
+  -webkit-transition: background-color 1s ease;
+  -ms-transition: background-color 1s ease;
+  transition: background-color 1s ease; }
+  .hotel.highlight {
+    background-color: rgba(196, 32, 50, 0.4); }
   .hotel .hotel-info {
     width: 75%; }
     .hotel .hotel-info .hotel-title {

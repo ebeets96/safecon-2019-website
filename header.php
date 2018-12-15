@@ -5,7 +5,7 @@
 			<a href="/">Home</a>
 			<a href="/safecon">SAFECON</a>
 			<a href="/hotels">Hotel Information</a>
-			<a href="/registration">Registration</a>
+<!--			<a href="/registration">Registration</a>-->
 		</nav>
 		<a href="#navPanel" class="navPanelToggle"><span class="fa fa-bars"></span></a>
 	</div>

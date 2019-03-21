@@ -2481,3 +2481,7 @@ button:disabled,
   content: "";
   display: table;
   clear: both; }
+
+.schedule-date {
+  font-size: 14.0pt;
+  line-height: 107%; }

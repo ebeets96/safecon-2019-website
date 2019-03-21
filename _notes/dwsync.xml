@@ -11,13 +11,14 @@
 <file name="safecon.php" server="ftp.ericbeets.com//public_html/addonDomains/flyingTeam/test/" local="131868141247443570" remote="131868141000000000" Dst="1" />
 <file name="CREDITS.txt" server="ftp.ericbeets.com//public_html/addonDomains/flyingTeam/" local="131836974712647996" remote="131868123000000000" Dst="1" />
 <file name="footer.php" server="ftp.ericbeets.com//public_html/addonDomains/flyingTeam/" local="131866469785376436" remote="131868123000000000" Dst="1" />
-<file name="hotels.php" server="ftp.ericbeets.com//public_html/addonDomains/flyingTeam/" local="131893026767349358" remote="131893026600000000" Dst="1" />
-<file name="header.php" server="ftp.ericbeets.com//public_html/addonDomains/flyingTeam/" local="131893077200758455" remote="131893077000000000" Dst="1" />
+<file name="hotels.php" server="ftp.ericbeets.com//public_html/addonDomains/flyingTeam/" local="131937830756727266" remote="131937830400000000" Dst="1" />
+<file name="header.php" server="ftp.ericbeets.com//public_html/addonDomains/flyingTeam/" local="131976060131932229" remote="131976024000000000" Dst="2" />
 <file name="elements.html" server="ftp.ericbeets.com//public_html/addonDomains/flyingTeam/" local="131836981758517178" remote="131868123000000000" Dst="1" />
 <file name="registration.php" server="ftp.ericbeets.com//public_html/addonDomains/flyingTeam/" local="131867282401211311" remote="131868123000000000" Dst="1" />
 <file name="LICENSE.txt" server="ftp.ericbeets.com//public_html/addonDomains/flyingTeam/" local="131836974712358766" remote="131868123000000000" Dst="1" />
-<file name="index.php" server="ftp.ericbeets.com//public_html/addonDomains/flyingTeam/" local="131880038296309124" remote="131880038400000000" Dst="1" />
-<file name="safecon.php" server="ftp.ericbeets.com//public_html/addonDomains/flyingTeam/" local="131893021062764316" remote="131893020600000000" Dst="1" />
+<file name="index.php" server="ftp.ericbeets.com//public_html/addonDomains/flyingTeam/" local="131893118821156026" remote="131893118400000000" Dst="1" />
+<file name="safecon.php" server="ftp.ericbeets.com//public_html/addonDomains/flyingTeam/" local="131976059545082240" remote="131976024000000000" Dst="2" />
 <file name=".htaccess" server="ftp.ericbeets.com//public_html/addonDomains/flyingTeam/" local="131868127497893026" remote="131868127200000000" Dst="1" />
-<file name="hotels.json" server="ftp.ericbeets.com//public_html/addonDomains/flyingTeam/" local="131893051332353555" remote="131893051200000000" Dst="1" />
+<file name="hotels.json" server="ftp.ericbeets.com//public_html/addonDomains/flyingTeam/" local="131940322178479746" remote="131940322200000000" Dst="1" />
+<file name="schedule.php" server="ftp.ericbeets.com//public_html/addonDomains/flyingTeam/" local="131976068449202619" remote="131976032400000000" Dst="2" />
 </dwsync>

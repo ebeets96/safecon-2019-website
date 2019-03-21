@@ -39,8 +39,11 @@ function scrollToHotel(index) {
 $(document).ready(function(){
 	var d = $.getJSON("hotels.json", function(data){
 		var hotels = data.hotels.sort(compareHotels);
-		var numInCol1 = Math.ceil(hotels.length / 2);
 		var popups = [];
+		
+		var numBlocked = 0;
+		var numNonBlocked = 0;
+		
 		
 		$.each(hotels, function(index, value) {
 			var latlng = L.latLng(value.location.lat, value.location.lng);
@@ -65,7 +68,7 @@ $(document).ready(function(){
 						<span class="hotel-address">${value.address}</span>
 						<span class="hotel-phone">${value.phone}</span>
 						<span class="hotel-price">${value.price}</span>
-						<span class="hotel-details">${value.breakfast}</span>
+						<!--<span class="hotel-details">${value.breakfast}</span>-->
 						</div>
 						<div class="hotel-links" data-index="${index}">
 							<a href="${value.website}" target="_blank" title="Visit hotel website" class="hotel-website"><i class="fa fa-link"></i></a>
@@ -74,11 +77,21 @@ $(document).ready(function(){
 					</div>
 			`;
 			
-			if(index < numInCol1) {
-				$("#hotels1").append(hotelHTML);
+			var rowSelector;
+			var currIndex;
+			
+			if(value.blocked) {
+				var colSelector = numBlocked % 2 == 0 ? " #hotels1" : " #hotels2"; 
+				rowSelector = $("#blocked-hotels" + colSelector);
+				numBlocked++;
 			} else {
-				$("#hotels2").append(hotelHTML);
+				var colSelector = numNonBlocked % 2 == 0 ? " #hotels1" : " #hotels2"; 
+				rowSelector = $("#nonblocked-hotels" + colSelector);
+				numNonBlocked++;
 			}
+			
+			rowSelector.append(hotelHTML);
+			
 		})
 		
 		$(".hotel-links .hotel-show-on-map").click(function() {
@@ -92,5 +105,17 @@ $(document).ready(function(){
   			map.flyTo(latlng, 14);
 			popups[index].openPopup();
 		})
+		
+		//Safecon Icon
+		var safeconIcon = L.icon({
+			iconUrl: 'images/map_icon.png',
+			iconSize:     [100, 38], // size of the icon
+			iconAnchor:   [50, 19], // point of the icon which will correspond to marker's location
+			popupAnchor:  [-3, -76] // point from which the popup should open relative to the iconAnchor
+		});
+		
+		//Add airport marker
+		L.marker([42.6179, -89.0416], {icon: safeconIcon}).addTo(map);
+		L.marker([43.071878, -89.408058], {icon: safeconIcon}).addTo(map);
 	});
 });

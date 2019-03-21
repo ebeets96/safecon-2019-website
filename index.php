@@ -1,3 +1,6 @@
+<?php
+	header("Location: /safecon");
+?>
 <!DOCTYPE HTML>
 <!--
 	Projection by TEMPLATED

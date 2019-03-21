@@ -16,6 +16,15 @@
 		<script src="assets/js/jquery.min.js"></script>
 		<script src="assets/js/countdown.js" type="text/javascript"></script>
 		<script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js"></script>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-133810521-1"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', 'UA-133810521-1');
+		</script>
 	</head>
 	<body class="subpage">
 
@@ -29,7 +38,14 @@
 						<h2>Hotel Information</h2>
 					</header>
 					<div id="leaflet-map"></div>
-					<div class="row">
+					<h3>Hotels With Blocked Rooms</h3>
+					<div class="row" id="blocked-hotels">
+						<div id="hotels1" class="6u 6u(medium) 12u$(small)"></div>
+						<div id="hotels2" class="6u 6u(medium) 12u$(small)"></div>
+					</div>
+					<h3 style="margin-top: 30px">Other Hotels in Area</h3>
+					<p>Please refer to hotel websites to verify pricing as it may change.  We are still in the process of securing group rates for some of the following hotels, so continue checking this page for updates.</p>
+					<div class="row" id="nonblocked-hotels">
 						<div id="hotels1" class="6u 6u(medium) 12u$(small)"></div>
 						<div id="hotels2" class="6u 6u(medium) 12u$(small)"></div>
 					</div>
